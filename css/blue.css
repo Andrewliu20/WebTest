@@ -20,9 +20,16 @@ body {
 	padding: 4% 0;
 }
 .logo{
-	margin-top: 10px;
+	margin-top: 0px;
 	float: left;
+	
 }
+.logo img{
+	margin-top: -10px;
+	width: 350px;
+	height: 60px;
+}
+
 /* start h_menu */
 .h_menu{
 	float: right;
@@ -435,11 +442,19 @@ nav{margin:0;background:none;}.menu li{display:block;margin:0;}.menu li a{backgr
 .footer1_of_3{
 	padding-left: 0px;
 }
+.footer2_of_3{
+	padding-left: 0px;
+}
 .footer_of_3{
 	padding-right: 0px;
 }
 .f_logo{
 	margin-bottom: 20px;
+}
+.f_logo img{
+	margin-left: -20;
+	width: 320px;
+	height: 60px;
 }
 .footer1_of_3 p{
 	font-size: 14px;
